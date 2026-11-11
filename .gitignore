@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+servidor/__pycache__/main.cpython-310.pyc
+servidor/__pycache__/main.cpython-313.pyc
+servidor/__pycache__/main.cpython-313.pyc
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Entornos virtuales
+.venv/
+venv/
+# Entorno virtual de Python
+servidor/.venv/
+__pycache__/
+*.py[cod]
